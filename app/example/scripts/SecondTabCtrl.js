@@ -4,7 +4,7 @@ angular
 
     $scope.message = null;
 
-    supersonic.bind($scope, "message");
+    // supersonic.bind($scope, "message");
 
     $scope.showMessage = function() {
       $scope.message = "May the force be equal to mass times acceleration."

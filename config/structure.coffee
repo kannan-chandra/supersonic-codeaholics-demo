@@ -4,28 +4,28 @@ module.exports =
 
   # See styling options for tabs and other native components in app/common/native-styles/ios.css or app/common/native-styles/android.css
 
-  # initialView:
-  #   id: "initialView"
-  #   location: "example#nav-demo"
+  initialView:
+    id: "initialView"
+    location: "example#nav-demo"
 
 
-  tabs: [
-    {
-      title: "Index"
-      id: "index"
-      location: "example#nav-demo"
-    }
-    {
-      title: "Settings"
-      id: "settings"
-      location: "example#second-tab"
-    }
-    {
-      title: "Internet"
-      id: "internet"
-      location: "http://google.com"
-    }
-  ]
+  # tabs: [
+  #   {
+  #     title: "Index"
+  #     id: "index"
+  #     location: "example#nav-demo"
+  #   }
+  #   {
+  #     title: "Settings"
+  #     id: "settings"
+  #     location: "example#second-tab"
+  #   }
+  #   {
+  #     title: "Internet"
+  #     id: "internet"
+  #     location: "http://google.com"
+  #   }
+  # ]
 
 
 
@@ -48,12 +48,12 @@ module.exports =
   #   }
   ]
 
-  drawers:
-    left:
-      id: "leftDrawer"
-      location: "example#drawer"
-      showOnAppLoad: false
-    options:
-      animation: "swingingDoor"
+  # drawers:
+  #   left:
+  #     id: "leftDrawer"
+  #     location: "example#drawer"
+  #     showOnAppLoad: false
+  #   options:
+  #     animation: "swingingDoor"
   
 
